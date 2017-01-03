@@ -1,0 +1,22 @@
+{
+  "name": "newton-roots",
+  "version": "1.0.0",
+  "description": "Implements Newton's method with correction to find roots.",
+  "main": "index.js",
+  "scripts": {
+    "test": "$(npm bin)/chi-run spec *.test.js .testresults default coverage xunit",
+    "maketest": "$(npm bin)/newTest spec $1"
+  },
+  "keywords": [
+    "Newton's",
+    "method",
+    "square",
+    "root"
+  ],
+  "author": "Chris Grimes",
+  "license": "ISC",
+  "devDependencies": {
+    "chihuahua-reporters": "^2.0.1",
+    "chihuahua-tester": "^1.0.5"
+  }
+}
